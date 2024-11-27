@@ -1,16 +1,19 @@
 {
   "name": "guildwiki-app",
   "version": "1.0.0",
-  "main": "index.js",
-"scripts": {
+  "description": "A multi-wiki server application using TiddlyWiki5 with SQL support.",
+  "main": "server.js",
+  "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "joshuafontany <joshua.fontany@gmail.com>",
-  "license": "MIT",
-  "description": "",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "tiddlywiki": "github:joshuafontany/tiddlywiki5#multi-wiki-support"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "author": "joshuafontany <joshua.fontany@gmail.com>",
+  "license": "MIT"
 }
