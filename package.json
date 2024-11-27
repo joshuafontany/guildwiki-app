@@ -1,0 +1,16 @@
+{
+  "name": "guildwiki-app",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "joshuafontany <joshua.fontany@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "tiddlywiki": "github:joshuafontany/tiddlywiki5#multi-wiki-support"
+  }
+}
